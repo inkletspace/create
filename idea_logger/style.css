@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+}
+
+#input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#input-area input,
+#input-area textarea {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#save-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#idea-list li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#idea-list button {
+    margin-left: 10px;
+}
